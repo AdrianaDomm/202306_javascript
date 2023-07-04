@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    background-color: rgb(219, 213, 213);
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    border: 2px solid black;
+    max-width: 900px;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-right {
+    border: 2px solid black;
+    padding: 30px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.btn-likes,
+.green {
+    padding: 5px;
+    box-shadow: 5px 4px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-likes {
+    background-color: rgb(230, 230, 102);
+}
+
+.green {
+    background-color: rgb(126, 221, 126);
+}
+
+#sign {
+    padding: 5px;
+    background-color: rgb(132, 132, 212);
+    box-shadow: 5px 4px 0px 0px rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.cursiva {
+    font-style: italic;
+}
