@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+.img-user {
+    border-radius: 50%;
+    height: 100px;
+}
+.user {
+    border: 3px solid black;
+    margin: 5px;
+    padding: 30px;
+    height: 180px;
+    width: 100px;
+
+}
+.card-feed {
+    border: 3px solid;
+    margin: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.feed-like {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.like {
+    background-color: rgb(214, 214, 118);
+    padding: 5px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.75);
+}
